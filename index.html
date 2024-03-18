@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffeerties</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <img
+        class="header-logo"
+        src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png"
+        alt="coffee icon"
+      />
+      Coffeerties
+    </header>
+    <div class="main-flex">
+      <div class="items">
+        <h4>ITEMS</h4>
+        <ul class="list-items">
+          <li class="grid-items">
+            <p class="quantity">1x</p>
+            <div class="name">
+              <p class="main-name">Capuccino</p>
+              <ul>
+                <li>Lite foam</li>
+              </ul>
+            </div>
+            <p class="price">$3.35</p>
+          </li>
+          <li class="grid-items">
+            <p class="quantity">1x</p>
+            <div class="name">
+              <p class="main-name">Capuccino</p>
+              <ul>
+                <li>Lite milk</li>
+                <li>Double espresso</li>
+              </ul>
+            </div>
+            <p class="price">$3.85</p>
+          </li>
+          <li class="grid-items">
+            <p class="quantity">1x</p>
+            <div class="name">
+              <p class="main-name">Crossant</p>
+              <ul>
+                <li>Butter</li>
+              </ul>
+            </div>
+            <p class="price">$2.45</p>
+          </li>
+        </ul>
+      </div>
+      <div class="order-form">
+        <form action="">
+          <fieldset class="form-universal">
+            <legend>NAME</legend>
+            <div class="input-labeled legend-margin">
+              <label for="order-name">Name for order</label>
+              <input
+                type="text"
+                name="order-name"
+                id="order-name"
+                placeholder="Input your name here"
+              />
+            </div>
+          </fieldset>
+          <fieldset class="form-universal">
+            <legend>PAYMENT</legend>
+            <div class="legend-margin">
+              <div class="input-labeled">
+                <label for="card-number">Card number</label>
+                <input
+                  type="text"
+                  name="card-number"
+                  id="card-number"
+                  placeholder="Credit card number"
+                />
+              </div>
+              <div class="input-labeled ccv">
+                <label for="ccv">CCV number</label>
+                <input type="text" name="ccv" id="ccv" placeholder="CCV" />
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="flex-container">
+      <div class="grid-total">
+        <p>Subtotal</p>
+        <p>$9.65</p>
+        <p>tax</p>
+        <p>$0.82</p>
+        <p>Total</p>
+        <p>$10.47</p>
+      </div>
+    </div>
+    <div class="margin">
+      <button class="btn-place" type="submit">Place Order</button>
+    </div>
+  </body>
+</html>
