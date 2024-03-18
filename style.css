@@ -163,6 +163,7 @@ body {
 
 .margin {
   margin: 1rem;
+  padding: 0 2rem;
 }
 .btn-place {
   display: block;
